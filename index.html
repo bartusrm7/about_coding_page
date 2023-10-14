@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+		<script src="https://kit.fontawesome.com/7287626084.js" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<title>AboutCoding</title>
+	</head>
+
+	<body>
+		<button class="burger-btn">
+			<div class="burger-btn__box">
+				<div class="burger-btn__bar"><i class="fa-solid fa-bars"></i></div>
+			</div>
+		</button>
+
+		<nav class="nav">
+			<div class="nav__items hide">
+				<a href="#home" class="nav__item home one">HOME</a>
+				<a href="#languages" class="nav__item two">Języki</a>
+				<a href="#kinds" class="nav__item three">Typy</a>
+				<a href="#knowledge" class="nav__item four">Wiedza</a>
+				<a href="#reviews" class="nav__item five">Opinie</a>
+				<a href="#contact" class="nav__item six">Kontakt</a>
+			</div>
+		</nav>
+
+		<header id="home" class="header">
+			<h1 class="header__title">AboutCoding</h1>
+			<p class="header__text">
+				Z nami nauczysz się co to jest kodowanie, do czego służy oraz jak kodować szybciej i przyjemniej
+			</p>
+			<button class="header__btn"><a href="#reviews">zobacz sam</a></button>
+
+			<div class="header__shadow"></div>
+		</header>
+
+
+		<main>
+			<section id="languages" class="languages">
+				<div class="heading-section">
+					<h2>Najpopularniejsze języki</h2>
+					<div class="underline"></div>
+				</div>
+
+				<div class="languages__boxes container">
+					<i class="fa-solid fa-arrow-left back"></i>
+
+					<div class="languages__box">
+						<div class="languages__dsc">
+							<h3>JavaScript</h3>
+							<p>
+								JavaScript (często skracane jako JS) to skryptowy język programowania, który jest powszechnie używany do
+								tworzenia dynamicznych stron internetowych. Jest to jeden z trzech głównych języków używanych w
+								front-end web development, obok HTML i CSS.
+							</p>
+						</div>
+
+						<div class="languages__dsc">
+							<h3>Python</h3>
+							<p>
+								Python to popularny i wszechstronny język programowania, który znalazł zastosowanie w wielu dziedzinach,
+								w tym w tworzeniu oprogramowania, analizie danych, sztucznej inteligencji, tworzeniu stron internetowych
+								i wielu innych.
+							</p>
+						</div>
+
+						<div class="languages__dsc">
+							<h3>Java</h3>
+							<p>
+								Java jest używana w różnych dziedzinach, od tworzenia aplikacji na urządzenia mobilne po rozbudowane
+								systemy rozproszone. Dzięki swoim cechom, takim jak przenośność i niezawodność, nadal pozostaje
+								popularnym wyborem w świecie programowania.
+							</p>
+						</div>
+
+						<div class="languages__dsc">
+							<h3>HTML/CSS</h3>
+							<p>
+								HTML - język ten pozwala tworzyć treści na stronie, natomiast CSS służy do ostylowania naszej strony
+								wizualnie. W praktyce, HTML i CSS współpracują razem: HTML określa strukturę i zawartość strony, a CSS
+								definiuje jej wygląd i styl. Dzięki tej kombinacji możliwe jest tworzenie estetycznych i responsywnych
+								stron internetowych.
+							</p>
+						</div>
+
+						<div class="languages__dsc">
+							<h3>C++</h3>
+							<p>
+								C++ to wszechstronny i potężny język programowania, który jest używany do tworzenia różnorodnych
+								rodzajów aplikacji, od aplikacji desktopowych po gry komputerowe i systemy wbudowane.
+							</p>
+						</div>
+					</div>
+
+					<i class="fa-solid fa-arrow-right next"></i>
+				</div>
+			</section>
+		
+		
+
+			<section id="kinds" class="kinds">
+				<div class="heading-section">
+					<h2>Rodzaje języków</h2>
+					<div class="underline"></div>
+				</div>
+
+				<div class="kinds__boxes container">
+					<div class="kinds__box">
+						<div class="kinds__dsc">
+							<h3 class="kinds__dsc-title">front-end</h3>
+							<ul>
+								<li>
+									Front-end to część aplikacji lub strony internetowej, którą użytkownik widzi i interaguje z nią
+									bezpośrednio.
+								</li>
+								<li>
+									Programiści front-end zajmują się tworzeniem interfejsu użytkownika (UI) i zapewnieniem, że strona lub
+									aplikacja wygląda i działa odpowiednio.
+								</li>
+								<li>
+									Technologie front-endowe często obejmują języki takie jak HTML (do struktury strony), CSS (do
+									stylizacji) oraz JavaScript (do interakcji i funkcjonalności).
+								</li>
+							</ul>
+						</div>
+
+						<div class="kinds__dsc">
+							<h3 class="kinds__dsc-title">back-end</h3>
+							<ul>
+								<li>
+									Back-end to ukryta część aplikacji lub serwisu internetowego, która obsługuje wszystkie operacje, z
+									którymi użytkownik nie ma bezpośredniego kontaktu.
+								</li>
+								<li>
+									Programiści back-end zajmują się przetwarzaniem danych, bazami danych, zarządzaniem użytkownikami,
+									zabezpieczeniami i innymi zadaniami związanymi z logiką aplikacji.
+								</li>
+								<li>
+									Technologie back-endowe obejmują języki takie jak Python, Ruby, Java, PHP, a także frameworki takie
+									jak Node.js, Ruby on Rails, Django, czy Laravel.
+								</li>
+							</ul>
+						</div>
+
+						<div class="kinds__dsc">
+							<h3 class="kinds__dsc-title">full-stack</h3>
+							<ul>
+								<li>Full-stack developer jest osobą, która ma umiejętności zarówno front-endowe, jak i back-endowe.</li>
+								<li>
+									Taki programista jest w stanie pracować na każdym poziomie aplikacji, zarówno tworząc interfejs
+									użytkownika, jak i implementując logikę serwera oraz baz danych.
+								</li>
+								<li>
+									Full-stack developer może pracować na różnych technologiach i obszarach, a jego umiejętności pozwalają
+									na samodzielne tworzenie kompletnych rozwiązań lub udział w pełnym cyklu rozwoju oprogramowania.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="knowledge" class="knowledge">
+				<div class="heading-section">
+					<h2>Skąd czerpać wiedzę?</h2>
+					<div class="underline"></div>
+				</div>
+
+				<div class="knowledge__boxes container">
+					<div class="knowledge__box">
+						<div class="knowledge__dsc">
+							<div class="knowledge__photo one"><div class="shadow"></div></div>
+							<h3 class="knowledge__dsc-title">Darmowa wiedza</h3>
+							<button><i class="fa-regular fa-circle-up"></i></button>
+							<div class="knowledge__tool-tip">
+								<p>
+									Darmowa wiedza, to najtańszy, lecz niekoniecznie najszybszy sposób do nauki programowania,
+									jednocześnie jest to długoterminowo najlepszy sposób nauki.
+								</p>
+								<p>Darmową wiedzę możemy czerpać z wielu źródeł, np.:</p>
+								<ul>
+									<li>Internet</li>
+									<li>Książki</li>
+									<li>YouTube</li>
+									<li>Dokumentacje</li>
+									<li>Kursy online</li>
+									<li>Open Source Projects</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="knowledge__dsc">
+							<div class="knowledge__photo two"><div class="shadow"></div></div>
+							<h3 class="knowledge__dsc-title">Bootcampy</h3>
+							<button><i class="fa-regular fa-circle-up"></i></button>
+							<div class="knowledge__tool-tip">
+								<p>Bootcampy mają swoje plusy i minusy takie jak:</p>
+								<ul>
+									<p>Plusy:</p>
+									<li>Szybki rozwój umiejętności</li>
+									<li>Zorientowane na praktykę</li>
+									<li>Wsparcie instruktorów</li>
+									<li>Zmotywowane środowisko</li>
+									<li>Specjalizacja</li>
+									<br />
+									<p>Minusy:</p>
+									<li>Koszty</li>
+									<li>Intensywność</li>
+									<li>Brak pełnej wiedzy teoretycznej</li>
+									<li>Wymagane prace domowe</li>
+									<li>Różnice w jakości</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="knowledge__dsc">
+							<div class="knowledge__photo three"><div class="shadow"></div></div>
+							<h3 class="knowledge__dsc-title">Studia informatyczne</h3>
+							<button><i class="fa-regular fa-circle-up"></i></button>
+							<div class="knowledge__tool-tip">
+								<p>
+									Jeśli jesteś zainteresowany bardziej formalnym podejściem, możesz rozważyć studia informatyczne na
+									uczelni lub online.
+								</p>
+								<ul>
+									<p>Oto kilka kluczowych aspektów których możemy nauczyć się na studiach informatycznych:</p>
+									<li>Specjalizacje</li>
+									<li>Praktyka i projekty</li>
+									<li>Teoria i praktyka</li>
+									<li>Języki programowania</li>
+									<li>Matematyka i algorytmy</li>
+									<li>Cyberbezpieczeństwo</li>
+									<li>Praca dyplomowa</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="reviews" class="reviews">
+				<div class="heading-section">
+					<h2>Opinie</h2>
+					<div class="underline"></div>
+				</div>
+
+				<div class="reviews__boxes container">
+					<div class="reviews__box">
+						<div class="reviews__dsc">
+							<img class="reviews__photo" src="./img/woman.jpg" alt="człowieczek zdjęcie" />
+							<h3 class="reviews__name">Kasia</h3>
+							<p>
+								"Blog ma wiele cennych informacji, ale czasami brakuje mi bardziej zaawansowanych tematów. Ogólnie
+								jednak jest to wspaniałe miejsce do nauki i rozwoju umiejętności programistycznych."
+							</p>
+						</div>
+
+						<div class="reviews__dsc">
+							<img class="reviews__photo" src="./img/another_man.jpg" alt="człowieczek zdjęcie" />
+							<h3 class="reviews__name">Marek</h3>
+							<p>
+								"Ten blog to prawdziwa perełka dla programistów! Znajduję tutaj nie tylko dokładne instrukcje, ale także
+								inspirujące artykuły o najnowszych trendach w programowaniu. Polecam każdemu, kto chce poszerzyć swoją
+								wiedzę."
+							</p>
+						</div>
+
+						<div class="reviews__dsc">
+							<img class="reviews__photo" src="./img/next_man.jpg" alt="człowieczek zdjęcie" />
+							<h3 class="reviews__name">Franciszek</h3>
+							<p>
+								"Blog ma potencjał, ale niestety jest zbyt mało aktualizowany. Często przeglądam te same artykuły. Mam
+								nadzieję, że autorzy zaczną publikować nowe treści częściej."
+							</p>
+						</div>
+
+						<div class="reviews__dsc">
+							<img class="reviews__photo" src="./img/man.jpg" alt="człowieczek zdjęcie" />
+							<h3 class="reviews__name">Jasio</h3>
+							<p>
+								"Jestem fanem tego bloga! Zawsze znajduję tutaj dokładne rozwiązania moich problemów programistycznych.
+								Artykuły są dobrze napisane i łatwe do zrozumienia, nawet dla początkujących."
+							</p>
+						</div>
+
+						<div class="reviews__dsc">
+							<img class="reviews__photo" src="./img/pig.jpg" alt="człowieczek zdjęcie" />
+							<h3 class="reviews__name">Mariola</h3>
+							<p>
+								"Ten blog to świetne źródło informacji dla osób uczących się programowania. Jednak czasami brakuje mi
+								bardziej praktycznych przykładów i projektów, które można by od razu wypróbować. Ogólnie jednak jest to
+								cenne źródło wiedzy."
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="contact">
+				<div class="heading-section">
+					<h2>Kontakt</h2>
+					<div class="underline"></div>
+				</div>
+
+				<div class="contact__boxes container">
+					<div class="contact__box">
+						<div class="contact__top">
+							<label for="name">imie i nazwisko</label>
+							<input type="text" />
+						</div>
+
+						<div class="contact__top">
+							<label for="email">adres e-mail</label>
+							<input type="text" />
+						</div>
+
+						<div class="contact__top">
+							<label for="msg">wiadomość</label>
+							<textarea name="" id="" cols="30" rows="10"></textarea>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<section class="contacts">
+			<div class="contacts__boxes container">
+				<div class="contacts__box">
+					<div class="contacts__dsc-wide">
+						<h3>
+							AboutCoding <span><i class="fa-brands fa-slack"></i></span>
+						</h3>
+
+						<p>
+							Ta strona internetowa jest doskonałym miejscem dla wszystkich, którzy kochają programowanie i chcą
+							rozwijać swoje umiejętności oraz pozostawać na bieżąco z najnowszymi trendami w dziedzinie informatyki.
+							Niezależnie od poziomu doświadczenia, każdy znajdzie tutaj coś dla siebie - od początkujących programistów
+							po doświadczonych inżynierów oprogramowania.
+						</p>
+
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+					</div>
+
+					<div class="contacts__dsc-short">
+						<h3>O firmie</h3>
+
+						<a class="first">Zarząd</a>
+						<a>Kariera</a>
+						<a>FAQ</a>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+		<footer class="footer">
+			<hr />
+			<p class="end">&copy;<span class="footer__year"></span>AboutCoding</p>
+		</footer>
+
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
